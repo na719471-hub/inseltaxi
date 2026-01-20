@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarif |  Insel Taxi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .tarif-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+        }
+        .tarif-table th, .tarif-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .tarif-table th {
+            background-color: var(--primary-yellow);
+            color: var(--dark-grey);
+        }
+        .highlight-box {
+            background: var(--light-grey);
+            padding: 20px;
+            border-left: 5px solid var(--primary-yellow);
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        .price-tag {
+            font-weight: bold;
+            color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Insel Taxi</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="tarif.html">Tarif</a></li>
+                <li><a href="flotte.html">Fahrzeugflotte</a></li>
+                <li><a href="dienstleistungen.html">Dienstleistungen</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Offizielle Taxitarife</h2>
+        
+        <div class="highlight-box">
+            <p><strong>Grundpreis:</strong> 5,00 €</p>
+            <p><strong>Wartezeit:</strong> 45,00 €/Std. (entspricht 0,10 € pro 8 Sekunden)</p>
+            <p><strong>Anfahrt:</strong> Grundsätzlich kostenlos im Pflichtfahrgebiet.</p>
+        </div>
+
+        <h3>Kilometerpreise (bis 4 Fahrgäste)</h3>
+        <table class="tarif-table">
+            <thead>
+                <tr>
+                    <th>Zeitraum</th>
+                    <th>Strecke</th>
+                    <th>Preis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Werktags (06:00 - 22:00 Uhr)</td>
+                    <td>bis 3 km (T1)</td>
+                    <td class="price-tag">2,50 €/km</td>
+                </tr>
+                <tr>
+                    <td>Werktags (06:00 - 22:00 Uhr)</td>
+                    <td>über 3 km (T2)</td>
+                    <td class="price-tag">2,40 €/km</td>
+                </tr>
+                <tr>
+                    <td>Nacht/Sonn- & Feiertag (22:00 - 06:00 Uhr)</td>
+                    <td>bis 3 km (T1N)</td>
+                    <td class="price-tag">2,70 €/km</td>
+                </tr>
+                <tr>
+                    <td>Nacht/Sonn- & Feiertag (22:00 - 06:00 Uhr)</td>
+                    <td>über 3 km (T2N)</td>
+                    <td class="price-tag">2,60 €/km</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="highlight-box" style="margin-top: 40px; border-left-color: #333;">
+            <h3><i class="fas fa-users"></i> Großraumtaxi-Zuschlag</h3>
+            <p>Für die Beförderung von <strong>5 bis 8 Fahrgästen</strong> wird ein einmaliger Zuschlag von <strong>10,00 €</strong> erhoben.</p>
+        </div>
+
+        <p style="font-size: 0.9rem; color: #666; margin-top: 20px;">
+            * Die Abrechnung erfolgt in Fortschaltungen von 0,10 €. Außerhalb des Pflichtfahrgebietes oder bei Fernfahrten können Festpreise vereinbart werden.
+        </p>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4> Insel Taxi</h4>
+                <p>Inhaber: Naeem Ahmed</p>
+                <p>Zittschower Weg 11A<br>23909 Ratzeburg</p>
+            </div>
+            <div class="footer-section">
+                <h4>Rechtliches</h4>
+                <ul class="footer-links">
+                    <li><a href="impressum.html">Impressum</a></li>
+                    <li><a href="datenschutz.html">Datenschutz</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

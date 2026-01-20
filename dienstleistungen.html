@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dienstleistungen | Insel Taxi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Styling für die Emoji-Icons */
+        .service-emoji {
+            font-size: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 180px;
+            background-color: #f8f9fa;
+            border-bottom: 2px solid #eee;
+            border-radius: 8px 8px 0 0;
+        }
+        .service-card {
+            overflow: hidden; /* Damit die Ecken sauber bleiben */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Insel Taxi</div>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="tarif.html">Tarif</a></li>
+                <li><a href="flotte.html">Fahrzeugflotte</a></li>
+                <li><a href="dienstleistungen.html">Dienstleistungen</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Unsere Dienstleistungen</h2>
+        <p style="margin-bottom: 30px; text-align: center;">Wir bieten Ihnen mehr als nur eine einfache Taxifahrt. Entdecken Sie unser umfassendes Serviceangebot.</p>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-emoji">✈️</div>
+                <div class="service-info">
+                    <h3>Flughafen-Transfers</h3>
+                    <p>Starten Sie entspannt in den Urlaub oder zur Geschäftsreise. Wir bringen Sie pünktlich zum Flughafen (Hamburg, Lübeck, etc.) und holen Sie wieder ab.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-emoji">🏥</div>
+                <div class="service-info">
+                    <h3>Krankenfahrten</h3>
+                    <p>Wir führen sitzende Krankenfahrten durch. Egal ob zur Dialyse, Chemotherapie oder zum Facharzt. Wir rechnen direkt mit allen Krankenkassen ab.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-emoji">🚐</div>
+                <div class="service-info">
+                    <h3>Großraumtaxi</h3>
+                    <p>Sie reisen mit mehr Gepäck oder in einer Gruppe? Unser Großraumtaxi bietet genügend Platz und Komfort für alle Fahrgäste.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-emoji">📦</div>
+                <div class="service-info">
+                    <h3>Kurierfahrten</h3>
+                    <p>Eilige Dokumente, Laborproben oder wichtige Pakete? Wir liefern Ihre Sendung direkt, sicher und diskret an den Empfänger.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-emoji">🗺️</div>
+                <div class="service-info">
+                    <h3>Nah- & Fernfahrten</h3>
+                    <p>Ob nur kurz zum Einkaufen in Ratzeburg oder eine Fernfahrt in eine andere Stadt – wir stehen für jede Strecke bereit.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-emoji">🧪</div>
+                <div class="service-info">
+                    <h3>Labor- & Arztfahrten</h3>
+                    <p>Spezielle Fahrten für medizinische Einrichtungen und Labore. Zuverlässiger Transport von Proben und Material.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="floating-buttons">
+        <a href="https://wa.me/491739189239" target="_blank" class="float-btn btn-whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="tel:+494541802080" class="float-btn btn-phone"><i class="fas fa-phone"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
